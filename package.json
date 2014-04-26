@@ -1,0 +1,16 @@
+{
+  "name": "lettuce-redis",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "mit",
+  "dependencies": {
+    "redis-jsonify": "0.0.4",
+    "redis-lock": "0.0.8",
+    "redis": "^0.10.1"
+  }
+}
