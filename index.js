@@ -11,9 +11,7 @@ if (password){
 }
 
 var lock = require('redis-lock')(redisClient);
-var jsonify = require('redis-jsonify');
 
 module.exports.client = redisClient;
 module.exports.lock = lock;
-module.exports.json = jsonify(redisClient);
 
